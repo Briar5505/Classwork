@@ -1,0 +1,26 @@
+#INSTRUCTIONS
+print("******MAD LIBS******")
+print("Enter a word or phrase for each word below:")
+
+#WORDS
+title = input("Title >> ").upper()
+person = input("Person >> ").upper()
+date = input("Date >> ").upper()
+place = input("Place >> ").upper()
+emotion = input("Emotion >> ").upper()
+item = input("Item >> ").upper()
+song = input("Song >> ").upper()
+question = input("Question >> ").upper()
+ingVerb = input("ingVerb >> ").upper()
+occupation = input("Occupation >> ").upper()
+pet = input("Pet >> ").upper()
+name = input("Place >> ").upper()
+
+#STORY
+print(title)
+print("It happened in " + date)
+print(person + "was sitting at " + place + ". They felt kinda " + emotion +
+      ", because they just found " + item +
+      ". It reminded them of their favorite song, " + song +
+      ". Suddenly a stranger asked" + person + "a" + question +
+      ". It was quite alarming when they asked. " + ingVerb + " almost. " + person + " Asked what is your name stranger? He replied, " + name + ". " + person + " recognized that name. It was his " + pet + "'s name. " + person + "Found they're pet as they were going hokme from " + occupation)
