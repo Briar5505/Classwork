@@ -1,0 +1,26 @@
+def Dating_app(Day, Month, Year):
+	print("Day of birth", Day)
+	print("Month of birth", Month)
+	print("Year of birth", Year)
+
+
+     if Day == "31" and not Month == "January" or Month == "August":
+                  print("Incompatable")
+              
+     if Day == "29" and Month == "January" Month == "March" Month == "April" Month == "May" Month == "Jun" Month == "July" Month == "August" Month == "October" Month == "September" Month == "November" Month == "December":
+                  print("Incompatable")
+              
+
+     if Month == "January" or Month == "February" "March" "April" "May" "Jun" "July" "August" "October" "September" "November" "December":
+                  print("")
+          else:
+                  print("Not a month")
+
+        print("You were born on:", Day, Month, Year)
+
+Day = input("Day of birth >>")
+Month = input("Month of birth >>")
+Year = input("Year of birth >>")
+
+Dating_app(Day, Month, Year)
+
