@@ -1,0 +1,18 @@
+#Title
+print("Super Powers")
+print()
+
+#Variables
+superhero_name = input("Hero Name >>")
+superhero_power = input("Hero Power >>")
+side_effect = input("Side Effect of Power >>")
+superhero_age = input("Hero Age >>")
+
+#Printing variables
+print("Hero's name >> ", superhero_name)
+print()
+print("Hero's power >> ", superhero_power)
+print()
+print("Side effect of power", side_effect)
+print()
+print("Hero's age >> ", superhero_age)
