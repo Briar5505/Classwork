@@ -1,0 +1,63 @@
+#include <iostream>
+
+int main() {
+
+float number;
+int x;
+  std::cout << "Please choose a number from 1 to 10 twice.\n";
+  std::cin >> x >> number;
+
+if (x == 1) {
+  number = number
+*11;
+
+}
+if (x == 2) {
+  number = number
+*12;
+
+}
+if (x == 3) {
+  number = number
+*13;
+
+}
+if (x == 4) {
+  number = number
+*14;
+
+}
+if (x == 5) {
+  number = number
+*15;
+
+}
+if (x == 6) {
+  number = number
+*16;
+
+}
+if (x == 7) {
+  number = number
+*17;
+
+}
+if (x == 8) {
+  number = number
+*18;
+
+}
+if (x == 9) {
+  number = number
+*19;
+
+}
+if (x == 10) {
+  number = number
+*20;
+}
+
+std::cout << "\nYour number multiplied: " <<
+number << "\n";
+
+}
